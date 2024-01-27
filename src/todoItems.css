@@ -1,0 +1,11 @@
+
+@keyframes flashy {
+    0% { background-color: rgb(18, 18, 18)  }
+    50% { background-color: rgb(255, 40, 40) }
+    100% { background-color: rgb(18, 18, 18) }
+  }
+  
+  .flashy-animation {
+    animation: flashy 2s infinite;
+  }
+  
