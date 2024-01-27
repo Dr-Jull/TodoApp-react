@@ -1,4 +1,3 @@
-import React from "react";
 import { useTodoStore } from "../Store";
 
 const DoneSortingControls = () => {

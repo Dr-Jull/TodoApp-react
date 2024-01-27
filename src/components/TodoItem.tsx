@@ -1,9 +1,8 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useTodoStore } from "../Store";
 import EditTodoForm from "./EditTodoForm";
-import AddTodoForm from "./AddTodoForm";
 import "../todoItems.css";
-const TodoItem = ({ id, priority, title, date, content, completed }) => {
+const TodoItem = ({ id, priority, title, date, content}) => {
   const { toggleTodoStatus, deleteTodo, moveDoneToTodo } = useTodoStore();
   const [isEditing, setEditing] = useState(false);
 

@@ -1,5 +1,5 @@
 // src/App.js
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useTodoStore } from "./Store";
 import AddTodoForm from "./components/AddTodoForm";
 import TodoSortingControls from "./components/TodoSortingControls";
